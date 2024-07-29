@@ -1,0 +1,13 @@
+{
+  "name": "smoobu-caution",
+  "version": "1.0.0",
+  "description": "Serverless functions for handling security deposits via Stripe and Smoobu",
+  "main": "netlify/functions/generate-caution-link.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "stripe": "^8.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
